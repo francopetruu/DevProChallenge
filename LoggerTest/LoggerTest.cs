@@ -17,7 +17,7 @@ namespace LoggerTest
         [TearDown]
         public void TearDown()
         {
-            // Eliminar el archivo de prueba después de cada prueba
+            // Delete test file after each test
             if (File.Exists(testFilePath))
             {
                 File.Delete(testFilePath);
